@@ -1,0 +1,27 @@
+<channel
+   name="group4_Channel1"
+   guid="8594A81040B58FD2F677B11F1C36C580"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="group4_Channel1-From-Ho5VBOJNVkshvU"
+      commit_id="4fd1acaaa76dffd70679fbd0aec682053c931bbd"
+      commit_comment="Import Translators: 4"
+      poll_time="15000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
